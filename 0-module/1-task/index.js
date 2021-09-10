@@ -1,12 +1,6 @@
 
-function sum (a, b) {
+function sum(a, b) {
   return a + b;
 }
-let result = sum (1,1);
-
-
-
-function sum (a, b) {
-  return a + b;
-}
-let result = sum (2,5);
+console.log(sum(1, 1));
+console.log(sum(2, 5));
