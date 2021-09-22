@@ -6,6 +6,9 @@ function factorial(n) {
   for (let i = 1; i <=n; i++) {
     result = result * 1;
   }
+  for (let i = 1; i <= n; i++) {
+    result = result * i;
+  }
   return result;
 }
 
